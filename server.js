@@ -8,7 +8,7 @@ const jsonData = require('./projectdata.json');
 app.use(express.json());
 
 const corsOptions = {
-  origin: 'http://localhost:3001', 
+  origin: 'https://projectdetailsbackend.onrender.com', 
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true,
   optionsSuccessStatus: 204,
